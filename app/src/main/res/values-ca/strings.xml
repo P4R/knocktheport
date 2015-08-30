@@ -1,0 +1,20 @@
+<resources>
+    <string name="strSave">Guardar</string>
+    <string name="strServer">Servidor:</string>
+    <string name="strPort">Port:</string>
+    <string name="strPorts">Ports:</string>
+    <string name="strRequieredField">Camp obligatori</string>
+    <string name="strInvalidValue">Valor invàlid. El valor ha d\'estar entre 0 i 65535.</string>
+    <string name="strConnect">Connectar</string>
+    <string name="strEdit">Editar</string>
+    <string name="strDelete">Eliminar</string>
+    <string name="strError">S\'ha produït un error</string>
+    <string name="strSucces">Seqüència enviada</string>
+    <string name="strClose">Tancar</string>
+    <string name="strAbout">Quant a</string>
+    <string name="strAuthor">Autor</string>
+    <string name="strVersion">Versió</string>
+    <string name="main_act_name">Seqüències</string>
+    <string name="add_act_name">Afegir</string>
+    <string name="strEmpty">Toca el botó afegir per a agregar una seqüència.</string>
+</resources>

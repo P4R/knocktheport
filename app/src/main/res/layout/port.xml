@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/strPort"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:maxLength="5"
+        android:ems="3"
+        android:textColor="@color/md_black_1000">
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+
+        android:entries="@array/portType"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/ic_action_new"
+        app:fab_colorNormal="@color/md_blue_500"
+        app:fab_colorPressed="@color/md_pink_500"
+        app:fab_colorRipple="@color/md_pink_500"
+        app:fab_showShadow="true"
+        app:fab_shadowColor="#66000000"
+        app:fab_shadowRadius="4dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="3dp"
+        app:fab_size="mini"
+        app:fab_showAnimation="@anim/fab_scale_up"
+        app:fab_hideAnimation="@anim/fab_scale_down"
+        app:fab_label=""
+        android:onClick="addPort" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:src="@drawable/ic_action_remove"
+        app:fab_colorNormal="@color/md_blue_500"
+        app:fab_colorPressed="@color/md_pink_500"
+        app:fab_colorRipple="@color/md_pink_500"
+        app:fab_showShadow="true"
+        app:fab_shadowColor="#66000000"
+        app:fab_shadowRadius="4dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="3dp"
+        app:fab_size="mini"
+        app:fab_showAnimation="@anim/fab_scale_up"
+        app:fab_hideAnimation="@anim/fab_scale_down"
+        app:fab_label=""
+        android:onClick="removePort" />
+
+</LinearLayout>

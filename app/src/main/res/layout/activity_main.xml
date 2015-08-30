@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.albujer.pere.knocktheport.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv"
+            android:layout_gravity="center_horizontal"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:dividerHeight="0dp" />
+        <LinearLayout
+            android:id="@android:id/empty"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strEmpty"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_action_new"
+        app:fab_colorNormal="@color/md_blue_500"
+        app:fab_colorPressed="@color/md_pink_500"
+        app:fab_colorRipple="@color/md_pink_500"
+        app:fab_showShadow="true"
+        app:fab_shadowColor="#66000000"
+        app:fab_shadowRadius="4dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="3dp"
+        app:fab_size="normal"
+        app:fab_showAnimation="@anim/fab_scale_up"
+        app:fab_hideAnimation="@anim/fab_scale_down"
+        app:fab_label=""
+        android:onClick="addServer" />
+
+</RelativeLayout>

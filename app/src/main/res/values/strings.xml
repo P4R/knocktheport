@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Knock the Port</string>
+    <string name="Iam" translatable="false">Pedro Albujer</string>
+    <string name="main_act_name">Sequences</string>
+    <string name="add_act_name">Add</string>
+    <string name="strSave">Save</string>
+    <string name="strEmpty">Tap add button to add a sequence.</string>
+    <string name="strServer">Server:&#160;</string>
+    <string name="strPort">Port:&#160;</string>
+    <string name="strPorts">Ports:&#160;</string>
+    <string name="strRequieredField">Required field</string>
+    <string name="strInvalidValue">Invalid value. Value must be between 0 and 65535.</string>
+    <string name="strConnect">Connect</string>
+    <string name="strEdit">Edit</string>
+    <string name="strDelete">Remove</string>
+    <string name="strError">An error has occurred</string>
+    <string name="strSucces">Sequence sent</string>
+    <string name="strClose">Close</string>
+    <string name="strAbout">About</string>
+    <string name="strAuthor">Author</string>
+    <string name="strVersion">Version</string>
+
+
+    <string-array name="portType">
+        <item>TCP</item>
+        <item>UDP</item>
+    </string-array>
+</resources>

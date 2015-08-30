@@ -1,0 +1,20 @@
+<resources>
+    <string name="strSave">Guardar</string>
+    <string name="strServer">Servidor:&#160;</string>
+    <string name="strPort">Puerto:&#160;</string>
+    <string name="strPorts">Puertos:&#160;</string>
+    <string name="strRequieredField">Campo obligatorio</string>
+    <string name="strInvalidValue">Valor inválido. El valor debe estar entre 0 y 65535.</string>
+    <string name="strConnect">Conectar</string>
+    <string name="strEdit">Editar</string>
+    <string name="strDelete">Eliminar</string>
+    <string name="strError">Se ha producido un error</string>
+    <string name="strSucces">Secuencia enviada</string>
+    <string name="strClose">Cerrar</string>
+    <string name="strAbout">Acerca de</string>
+    <string name="strAuthor">Autor</string>
+    <string name="strVersion">Versión</string>
+    <string name="main_act_name">Secuencias</string>
+    <string name="add_act_name">Añadir</string>
+    <string name="strEmpty">Toque el botón añadir para agregar una secuencia.</string>
+</resources>
