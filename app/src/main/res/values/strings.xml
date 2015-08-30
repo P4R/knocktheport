@@ -21,7 +21,7 @@
     <string name="strVersion">Version</string>
 
 
-    <string-array name="portType">
+    <string-array name="portType" translatable="false">
         <item>TCP</item>
         <item>UDP</item>
     </string-array>
