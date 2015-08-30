@@ -10,3 +10,5 @@ Author: Pedro Albujer
 This applications is my Final Degree Project and this application implements a Android port knocking client.  
 It's use to send sequences to port knocking server.
 
+## License
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
